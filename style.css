@@ -1,0 +1,205 @@
+:root {
+  --bg: #faf6f0;
+  --surface: #ffffff;
+  --ink: #2a2118;
+  --ink-soft: #6b5d4f;
+  --accent: #b45f2e;
+  --accent-soft: #f1e0cf;
+  --border: #e6dac8;
+  --shadow: 0 2px 10px rgba(60, 40, 10, 0.06);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #1a1510;
+    --surface: #241d16;
+    --ink: #f1e7d8;
+    --ink-soft: #bba98f;
+    --accent: #e0955a;
+    --accent-soft: #3a2d1d;
+    --border: #3a2f22;
+    --shadow: 0 2px 10px rgba(0, 0, 0, 0.35);
+  }
+}
+
+* { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  font-family: "Georgia", "Iowan Old Style", serif;
+  background: var(--bg);
+  color: var(--ink);
+  line-height: 1.55;
+}
+
+.site-header {
+  text-align: center;
+  padding: 2.5rem 1rem 1rem;
+}
+
+.site-header h1 {
+  margin: 0;
+  font-size: 2.2rem;
+  letter-spacing: 0.02em;
+}
+
+.tagline {
+  color: var(--ink-soft);
+  margin: 0.3rem 0 0;
+  font-style: italic;
+}
+
+.tabs {
+  display: flex;
+  justify-content: center;
+  gap: 0.5rem;
+  margin: 1.5rem auto 0;
+  padding: 0 1rem;
+}
+
+.tab-btn {
+  font-family: inherit;
+  font-size: 1rem;
+  padding: 0.65rem 1.4rem;
+  border: 1px solid var(--border);
+  background: var(--surface);
+  color: var(--ink-soft);
+  border-radius: 999px;
+  cursor: pointer;
+  transition: background 0.15s ease, color 0.15s ease, border-color 0.15s ease;
+}
+
+.tab-btn:hover {
+  border-color: var(--accent);
+}
+
+.tab-btn.active {
+  background: var(--accent);
+  color: #fff;
+  border-color: var(--accent);
+}
+
+main {
+  max-width: 760px;
+  margin: 0 auto;
+  padding: 1.5rem 1rem 3rem;
+}
+
+.tab-panel {
+  display: none;
+}
+
+.tab-panel.active {
+  display: block;
+}
+
+.panel-intro {
+  margin-bottom: 1.5rem;
+  color: var(--ink-soft);
+}
+
+.note {
+  font-size: 0.85rem;
+  font-style: italic;
+}
+
+.verse-list {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.verse-card {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  padding: 1rem 1.2rem;
+  box-shadow: var(--shadow);
+}
+
+.verse-head {
+  display: flex;
+  align-items: baseline;
+  gap: 0.6rem;
+  margin-bottom: 0.35rem;
+}
+
+.verse-number {
+  font-weight: bold;
+  color: var(--accent);
+  font-variant-numeric: tabular-nums;
+  min-width: 3ch;
+}
+
+.verse-speaker {
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: var(--ink-soft);
+}
+
+.verse-text {
+  margin: 0 0 0.5rem;
+}
+
+.verse-themes {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+}
+
+.theme-chip {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  font-size: 0.72rem;
+  background: var(--accent-soft);
+  color: var(--accent);
+  padding: 0.2rem 0.6rem;
+  border-radius: 999px;
+  border: none;
+  cursor: pointer;
+}
+
+.theme-chip:hover {
+  filter: brightness(0.95);
+}
+
+.theme-picker {
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+  margin-bottom: 1.5rem;
+}
+
+.theme-picker label {
+  font-size: 0.9rem;
+  color: var(--ink-soft);
+}
+
+#theme-select {
+  font-family: inherit;
+  font-size: 1rem;
+  padding: 0.6rem 0.8rem;
+  border-radius: 8px;
+  border: 1px solid var(--border);
+  background: var(--surface);
+  color: var(--ink);
+}
+
+.theme-detail h2 {
+  margin-top: 0;
+}
+
+.theme-learning {
+  background: var(--accent-soft);
+  border-left: 4px solid var(--accent);
+  padding: 1rem 1.2rem;
+  border-radius: 6px;
+  margin-bottom: 1.5rem;
+}
+
+.site-footer {
+  text-align: center;
+  color: var(--ink-soft);
+  font-size: 0.8rem;
+  padding: 1rem 1rem 2.5rem;
+}

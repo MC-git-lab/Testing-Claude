@@ -1,0 +1,54 @@
+{
+  "themes": [
+    {
+      "id": "facing-hard-decisions",
+      "name": "Facing Difficult Decisions",
+      "learning": "Big decisions rarely feel clear in the moment. Arjuna freezes when a choice has no easy answer — a reminder that hesitation before something important isn't weakness, it's a sign you're taking it seriously."
+    },
+    {
+      "id": "compassion",
+      "name": "Compassion & Empathy",
+      "learning": "Arjuna's crisis begins the moment he truly sees the people on the other side as people, not opponents. Empathy can be inconvenient — it complicates decisions that looked simple from a distance — but it's still worth having."
+    },
+    {
+      "id": "anxiety-and-fear",
+      "name": "Managing Anxiety & Fear",
+      "learning": "Arjuna's trembling hands, dry mouth, and racing mind are described in almost clinical detail — this is one of the oldest descriptions of a panic response in literature. Naming what fear does to your body is the first step to working with it instead of being ruled by it."
+    },
+    {
+      "id": "family-and-relationships",
+      "name": "Family & Relationships",
+      "learning": "Arjuna's paralysis comes from loving the people he's supposed to fight. Loyalty to family and loyalty to duty can pull in opposite directions — recognizing that tension honestly is healthier than pretending it doesn't exist."
+    },
+    {
+      "id": "values-over-reward",
+      "name": "Values Over Material Reward",
+      "learning": "Arjuna says a kingdom is worthless if winning it costs him the people he loves. A useful question for any big life choice: would I still want this if I strip away the money, status, or prize attached to it?"
+    },
+    {
+      "id": "consequences-and-responsibility",
+      "name": "Consequences & Responsibility",
+      "learning": "Arjuna reasons through the ripple effects of his choice on his family and community, not just the immediate outcome. Thinking a few steps ahead about who else is affected is a mark of maturity, not overthinking."
+    },
+    {
+      "id": "guilt-and-self-reflection",
+      "name": "Guilt & Self-Reflection",
+      "learning": "Arjuna openly questions whether the thing he's about to do is right, even mid-battle-formation. Being willing to interrogate your own motives — instead of just charging ahead — is uncomfortable but valuable."
+    },
+    {
+      "id": "grief-and-overwhelm",
+      "name": "Grief & Emotional Overwhelm",
+      "learning": "The chapter ends with Arjuna literally unable to act — he drops his weapons and sits down. Sometimes the honest response to overwhelming grief or stress is to stop and admit you're stuck, rather than forcing yourself forward."
+    },
+    {
+      "id": "courage-and-morale",
+      "name": "Courage & Morale",
+      "learning": "Before the doubt sets in, both armies sound their conches together — a shared, deliberate ritual to build collective courage before a hard moment. Rituals and shared moments of resolve can steady a group before something difficult."
+    },
+    {
+      "id": "seeking-clarity",
+      "name": "Seeking Clarity Before Acting",
+      "learning": "Arjuna's first move isn't to act or to retreat — it's to ask Krishna to drive him out for a clearer look before he commits. Asking to see the full picture before deciding is a strength, not a stall tactic."
+    }
+  ]
+}
