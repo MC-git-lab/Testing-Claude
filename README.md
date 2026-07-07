@@ -1,1 +1,52 @@
-IyBCaGFnYXZhZCBHaXRhIOKAlCBQYXNzYWdlcyAmIExpZmUgVGhlbWVzCgpBIHNtYWxsIHN0YXRpYyB3ZWJzaXRlIGZvciByZWFkaW5nIHRoZSBCaGFnYXZhZCBHaXRhIHZlcnNlIGJ5IHZlcnNlIGFuZCBleHBsb3JpbmcgdGhlIGxpZmUKbGVzc29ucyB3aXRoaW4gaXQgYnkgdGhlbWUuCgojIyBGZWF0dXJlcwoKLSAqKkFsbCBQYXNzYWdlcyB0YWIqKiDigJQgZXZlcnkgdmVyc2Ugb2YgdGhlIGNoYXB0ZXIsIG51bWJlcmVkIChlLmcuIGAxLjFgLCBgMS4yYCwgLi4uKSB3aXRoCiAgc3BlYWtlciBhbmQgYSBwbGFpbi1FbmdsaXNoIHBhcmFwaHJhc2UuCi0gKipMaWZlIFRoZW1lcyB0YWIqKiDigJQgYSBkcm9wZG93biBvZiBsaWZlIGxlc3NvbnMgZm9yIHlvdW5nIGFkdWx0cyAoZS5nLiBDb21wYXNzaW9uICYKICBFbXBhdGh5LCBNYW5hZ2luZyBBbnhpZXR5ICYgRmVhciwgRmFjaW5nIERpZmZpY3VsdCBEZWNpc2lvbnMpLiBTZWxlY3RpbmcgYSB0aGVtZSBzaG93cyBhCiAgc2hvcnQgZXhwbGFuYXRpb24gb2YgdGhlIGxlYXJuaW5nIHBsdXMgZXZlcnkgdmVyc2UgdGFnZ2VkIHdpdGggdGhhdCB0aGVtZS4KLSBDbGljayBhbnkgdGhlbWUgY2hpcCBvbiBhIHZlcnNlIHRvIGp1bXAgc3RyYWlnaHQgdG8gdGhhdCB0aGVtZSdzIGRldGFpbCB2aWV3LgoKIyMgU3RhdHVzCgpDdXJyZW50bHkgY292ZXJzICoqQ2hhcHRlciAxOiBBcmp1bmEgVmlzaGFkYSBZb2dhKiogKDQ3IHZlcnNlcykuIE1vcmUgY2hhcHRlcnMgd2lsbCBiZSBhZGRlZAogb3ZlciB0aW1lIOKAlCB0aGUgZGF0YSBtb2RlbCBhbHJlYWR5IHN1cHBvcnRzIGl0IChzZWUgYGRhdGEvYCkuCgojIyBQcm9qZWN0IHN0cnVjdHVyZQoKYGBgCmluZGV4Lmh0bWwgICAgICAgUGFnZSBtYXJrdXAsIHR3byB0YWJzCnN0eWxlLmNzcyAgICAgICAgU3R5bGluZyAobGlnaHQvZGFyayBhd2FyZSkKYXBwLmpzICAgICAgICAgICBUYWIgc3dpdGNoaW5nICsgcmVuZGVyaW5nIGxvZ2ljCmRhdGEvY2hhcHRlcjEuanNvbiAgVmVyc2UgZGF0YSBmb3IgY2hhcHRlciAxCmRhdGEvdGhlbWVzLmpzb24gICAgIExpZmUtdGhlbWUgZGVmaW5pdGlvbnMgYW5kIGxlYXJuaW5ncwpgYGAKClRvIGFkZCBhIG5ldyBjaGFwdGVyLCBjcmVhdGUgYGRhdGEvY2hhcHRlck4uanNvbmAgZm9sbG93aW5nIHRoZSBzYW1lIHNoYXBlIGFzCmBkYXRhL2NoYXB0ZXIxLmpzb25gLCBhbmQgZXh0ZW5kIGBhcHAuanNgIHRvIGxvYWQvbGlzdCBtdWx0aXBsZSBjaGFwdGVycy4KCiMjIFJ1bm5pbmcgbG9jYWxseQoKQmVjYXVzZSB0aGUgcGFnZSBsb2FkcyBKU09OIHZpYSBgZmV0Y2hgLCBvcGVuIGl0IHRocm91Z2ggYSBsb2NhbCBzZXJ2ZXIgcmF0aGVyIHRoYW4KZG91YmxlLWNsaWNraW5nIHRoZSBmaWxlIChicm93c2VycyBibG9jayBgZmV0Y2hgIG9uIGBmaWxlOi8vYCBVUkxzKToKCmBgYGJhc2gKcHl0aG9uMyAtbSBodHRwLnNlcnZlciA4MDAwCiMgdGhlbiB2aXNpdCBodHRwOi8vbG9jYWxob3N0OjgwMDAKYGBgCgojIyBEZXBsb3lpbmcKClRoaXMgaXMgYSBzdGF0aWMgc2l0ZSB3aXRoIG5vIGJ1aWxkIHN0ZXAg4oCUIGl0IGNhbiBiZSBzZXJ2ZWQgZGlyZWN0bHkgdmlhIEdpdEh1YiBQYWdlcwooU2V0dGluZ3Mg4oaSIFBhZ2VzIOKGkiBkZXBsb3kgZnJvbSBicmFuY2gpIG9yIGFueSBzdGF0aWMgaG9zdC4KCiMjIENvbnRlbnQgbm90ZQoKVmVyc2UgdGV4dCBpcyBhIGNvbmNpc2UsIHBsYWluLUVuZ2xpc2ggcGFyYXBocmFzZSBpbnRlbmRlZCBmb3Igc3R1ZHkgYW5kIHJlZmxlY3Rpb24sIG5vdCBhCmxpdGVyYWwgc2Nob2xhcmx5IHRyYW5zbGF0aW9uLiBGb3IgY2xvc2UgdGV4dHVhbCBzdHVkeSwgcGxlYXNlIGNvbnN1bHQgYSBkZWRpY2F0ZWQgc2Nob2xhcmx5CnRyYW5zbGF0aW9uIGFsb25nc2lkZSB0aGlzIHNpdGUuCg==
+# Bhagavad Gita — Passages & Life Themes
+
+A small static website for reading the Bhagavad Gita verse by verse and exploring the life
+lessons within it by theme.
+
+## Features
+
+- **All Passages tab** — every verse of the chapter, numbered (e.g. `1.1`, `1.2`, ...) with
+  speaker and a plain-English paraphrase.
+- **Life Themes tab** — a dropdown of life lessons for young adults (e.g. Compassion &
+  Empathy, Managing Anxiety & Fear, Facing Difficult Decisions). Selecting a theme shows a
+  short explanation of the learning plus every verse tagged with that theme.
+- Click any theme chip on a verse to jump straight to that theme's detail view.
+
+## Status
+
+Currently covers **Chapter 1: Arjuna Vishada Yoga** (47 verses). More chapters will be added
+over time — the data model already supports it (see `data/`).
+
+## Project structure
+
+```
+index.html            Page markup, two tabs
+style.css             Styling (light/dark aware)
+app.js                Tab switching + rendering logic
+data/chapter1.json    Verse data for chapter 1
+data/themes.json      Life-theme definitions and learnings
+```
+
+To add a new chapter, create `data/chapterN.json` following the same shape as
+`data/chapter1.json`, and extend `app.js` to load/list multiple chapters.
+
+## Running locally
+
+Because the page loads JSON via `fetch`, open it through a local server rather than
+double-clicking the file (browsers block `fetch` on `file://` URLs):
+
+```bash
+python3 -m http.server 8000
+# then visit http://localhost:8000
+```
+
+## Deploying
+
+This is a static site with no build step — it can be served directly via GitHub Pages
+(Settings → Pages → deploy from branch) or any static host.
+
+## Content note
+
+Verse text is a concise, plain-English paraphrase intended for study and reflection, not a
+literal scholarly translation. For close textual study, please consult a dedicated scholarly
+translation alongside this site.
