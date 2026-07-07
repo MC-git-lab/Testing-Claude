@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Bhagavad Gita &mdash; Passages &amp; Life Themes</title>
+<link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <h1>Bhagavad Gita</h1>
+    <p class="tagline">Chapter 1: Arjuna Vishada Yoga &mdash; The Yoga of Arjuna's Dejection</p>
+  </header>
+
+  <nav class="tabs" role="tablist">
+    <button class="tab-btn active" data-tab="passages" role="tab" aria-selected="true">All Passages</button>
+    <button class="tab-btn" data-tab="themes" role="tab" aria-selected="false">Life Themes</button>
+  </nav>
+
+  <main>
+    <section id="passages" class="tab-panel active" role="tabpanel">
+      <div class="panel-intro">
+        <p id="chapter-summary"></p>
+        <p class="note" id="chapter-note"></p>
+      </div>
+      <div id="verse-list" class="verse-list"></div>
+    </section>
+
+    <section id="themes" class="tab-panel" role="tabpanel">
+      <div class="panel-intro">
+        <p>Chapter 1 is mostly narrative, but Arjuna's crisis already touches on themes that matter well beyond the battlefield. Pick a theme below to see what it means for everyday life and which verses it comes from.</p>
+      </div>
+      <div class="theme-picker">
+        <label for="theme-select">Choose a life theme:</label>
+        <select id="theme-select"></select>
+      </div>
+      <div id="theme-detail" class="theme-detail"></div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>Verse text is a concise plain-English paraphrase for study purposes, not a literal scholarly translation. Chapter 1 of 18 &mdash; more chapters coming.</p>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
